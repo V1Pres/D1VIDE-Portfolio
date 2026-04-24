@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule</title>
+  <link rel="stylesheet" href="schedule.css" />
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Background video layer -->
+  <div class="bg-video-layer" aria-hidden="true">
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source src="videos/video_portrait_home.mp4" type="video/mp4">
+    </video>
+    <div class="bg-video-fog"></div>
+    <div class="bg-video-glow"></div>
+    <div class="bg-video-rain"></div>
+  </div>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="top-left">
+      <a class="back-btn" href="home.html" aria-label="Back to Home">
+        <span class="back-arrow"></span>
+      </a>
+      <div class="top-title">SCHEDULE</div>
+    </div>
+
+    <div class="top-right"></div>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav class="side-nav">
+      <a class="nav-item" href="index.html">Profile</a>
+      <a class="nav-item active" href="schedule.html">Schedule</a>
+      <a class="nav-item" href="projects.html">Projects</a>
+      <a class="nav-item" href="#">Resources</a>
+      <a class="nav-item" href="#">History</a>
+      <a class="nav-item" href="#">Skills & Talents</a>
+      <a class="nav-item" href="#">Socials</a>
+      <a class="nav-item" href="#">Preferences</a>
+    </nav>
+  </aside>
+
+  <!-- Center -->
+  <main class="content schedule-page">
+
+    <section class="sched-head">
+      <div class="sched-title">Weekly Class Schedule</div>
+      <div class="sched-sub">Listed by day • Scroll to view all</div>
+    </section>
+
+    <!-- Scheduke Grid -->
+    <section class="sched-grid">
+
+      <!-- MONDAY -->
+      <article class="day-card">
+        <div class="day-top">
+          <div class="day-icon">☠️</div>
+          <div class="day-name">MONDAY</div>
+        </div>
+
+        <div class="day-list">
+          <div class="class-item">
+            <div class="class-time">1:00 PM – 3:00 PM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB2</span>
+              <span class="pill subj">IM102</span>
+              <span class="pill sec">(2A)</span>
+            </div>
+            <div class="class-teacher">MR. BARNATIA</div>
+          </div>
+
+          <div class="class-item">
+            <div class="class-time">3:00 PM – 5:00 PM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB2</span>
+              <span class="pill subj">NET101</span>
+              <span class="pill sec">(2A)</span>
+            </div>
+            <div class="class-teacher">MR. ALBERTO</div>
+          </div>
+        </div>
+
+        <div class="day-bar"></div>
+      </article>
+
+      <!-- TUESDAY -->
+      <article class="day-card">
+        <div class="day-top">
+          <div class="day-icon">🥽</div>
+          <div class="day-name">TUESDAY</div>
+        </div>
+
+        <div class="day-list">
+          <div class="class-item">
+            <div class="class-time">7:00 AM – 9:00 AM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB1</span>
+              <span class="pill subj">IPT101</span>
+              <span class="pill sec">(2A)</span>
+            </div>
+            <div class="class-teacher">MR. FIGUEROA</div>
+          </div>
+
+          <div class="class-item">
+            <div class="class-time">9:30 AM – 11:30 AM</div>
+            <div class="class-meta">
+              <span class="pill room">NSTP RM</span>
+              <span class="pill subj">PE4</span>
+              <span class="pill sec">(2A)</span>
+            </div>
+            <div class="class-teacher">MS. MARTINEZ</div>
+          </div>
+
+          <div class="class-item">
+            <div class="class-time">1:00 PM – 3:00 PM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB2</span>
+              <span class="pill subj">CC104</span>
+              <span class="pill sec">(1B)</span>
+            </div>
+            <div class="class-teacher">MR. ALBERTO</div>
+          </div>
+
+          <div class="class-item">
+            <div class="class-time">3:00 PM – 5:00 PM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB2</span>
+              <span class="pill subj">HC101</span>
+              <span class="pill sec">(1B)</span>
+            </div>
+            <div class="class-teacher">MR. BARNATIA</div>
+          </div>
+        </div>
+
+        <div class="day-bar"></div>
+      </article>
+
+      <!-- WEDNESDAY -->
+      <article class="day-card">
+        <div class="day-top">
+          <div class="day-icon">💀</div>
+          <div class="day-name">WEDNESDAY</div>
+        </div>
+
+        <div class="day-list">
+          <div class="class-item">
+            <div class="class-time">7:00 AM – 9:00 AM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB2</span>
+              <span class="pill subj">PF102</span>
+              <span class="pill sec">(2A)</span>
+            </div>
+            <div class="class-teacher">MR. BARNATIA</div>
+          </div>
+
+          <div class="class-item">
+            <div class="class-time">10:00 AM – 12:00 PM</div>
+            <div class="class-meta">
+              <span class="pill room">CH203</span>
+              <span class="pill subj">REED2</span>
+              <span class="pill sec">(1B)</span>
+            </div>
+            <div class="class-teacher">MR. MONTIVERDE</div>
+          </div>
+
+          <div class="class-item">
+            <div class="class-time">3:00 PM – 5:00 PM</div>
+            <div class="class-meta">
+              <span class="pill room">CLAB2</span>
+              <span class="pill subj">WS101</span>
+              <span class="pill sec">(2A)</span>
+            </div>
+            <div class="class-teacher">MR. ALTURA</div>
+          </div>
+        </div>
+
+        <div class="day-bar"></div>
+      </article>
+
+      <!-- THURSDAY -->
+      <article class="day-card">
+        <div class="day-top">
+          <div class="day-icon">⚛️</div>
+          <div class="day-name">THURSDAY</div>
+        </div>
+
+        <div class="day-list">
+          <div class="class-item">
+            <div class="class-time">1:30 PM – 4:30 PM</div>
+            <div class="class-meta">
+              <span class="pill room">JP RM102</span>
+              <span class="pill subj">NSTP2</span>
+              <span class="pill sec">(EDUC)</span>
+            </div>
+            <div class="class-teacher">MR. REYES</div>
+          </div>
+        </div>
+
+        <div class="day-bar"></div>
+      </article>
+
+    </section>
+
+  </main>
+
+</div>
+
+</body>
+</html>

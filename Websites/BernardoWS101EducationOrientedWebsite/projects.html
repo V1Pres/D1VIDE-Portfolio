@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Background video layer -->
+  <div class="bg-video-layer" aria-hidden="true">
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source src="videos/video_portrait_home.mp4" type="video/mp4">
+    </video>
+    <div class="bg-video-fog"></div>
+    <div class="bg-video-glow"></div>
+    <div class="bg-video-rain"></div>
+  </div>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="top-left">
+      <a class="back-btn" href="home.html" aria-label="Back to Home">
+        <span class="back-arrow"></span>
+      </a>
+      <div class="top-title">PROJECTS</div>
+    </div>
+
+    <div class="top-right"></div>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav class="side-nav">
+      <a class="nav-item" href="index.html">Profile</a>
+      <a class="nav-item" href="schedule.html">Courses</a>
+      <a class="nav-item active" href="projects.html">Projects</a>
+      <a class="nav-item" href="#">Resources</a>
+      <a class="nav-item" href="#">Grades</a>
+      <a class="nav-item" href="#">Live Class</a>
+      <a class="nav-item" href="#">Social</a>
+      <a class="nav-item" href="#">Account</a>
+    </nav>
+  </aside>
+
+  <!-- Center -->
+  <main class="content projects-page">
+
+    <!-- Top controls -->
+    <section class="proj-controls">
+      <div class="search-wrap">
+        <span class="search-ico" aria-hidden="true">⌕</span>
+        <input class="search-input" type="text" placeholder="Search projects..." />
+      </div>
+
+      <button class="upload-btn" type="button">
+        <span class="upload-ico" aria-hidden="true">⤴</span>
+        <span class="upload-txt">Upload</span>
+      </button>
+    </section>
+
+    <!-- Empty State -->
+    <section class="proj-empty">
+      <div class="empty-card">
+        <div class="empty-title"></div>
+        <div class="empty-sub">No projects posted yet.</div>
+      </div>
+    </section>
+
+  </main>
+
+</div>
+
+</body>
+</html>
