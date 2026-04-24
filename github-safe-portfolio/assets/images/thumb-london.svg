@@ -1,0 +1,13 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="48" fill="#101114"/>
+  <rect x="26" y="26" width="1228" height="668" rx="30" stroke="#7DC7FF" stroke-opacity="0.22" stroke-width="4"/>
+  <circle cx="1034" cy="122" r="178" fill="#7DC7FF" fill-opacity="0.12"/>
+  <circle cx="220" cy="594" r="214" fill="#7DC7FF" fill-opacity="0.08"/>
+  <rect x="82" y="108" width="1116" height="504" rx="34" fill="#17191E"/>
+  <text x="92" y="170" fill="#7DC7FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">GAMING HIGHLIGHT</text>
+  <text x="92" y="318" fill="#F3F6FB" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="800">Take Me Back</text>
+  <text x="92" y="392" fill="#F3F6FB" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="800">To London</text>
+  <text x="92" y="456" fill="#A4AFBD" font-family="Segoe UI, Arial, sans-serif" font-size="34">Mobile Legends Edit Preview</text>
+  <rect x="92" y="502" width="242" height="52" rx="26" fill="#7DC7FF" fill-opacity="0.16"/>
+  <text x="126" y="537" fill="#F3F6FB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Static Image Version</text>
+</svg>
